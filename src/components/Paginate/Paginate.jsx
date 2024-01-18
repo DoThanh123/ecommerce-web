@@ -8,8 +8,6 @@ const Pagination = ({ total, perPage, paginate }) => {
         pageNumber.push(i);
     }
 
-    console.log(total);
-
     return (
         <Pagi>
             <ReactPaginate
